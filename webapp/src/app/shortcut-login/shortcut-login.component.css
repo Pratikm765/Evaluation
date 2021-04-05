@@ -1,0 +1,50 @@
+*{
+    font-family: YourFontFamily;
+}
+
+.container{
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px;
+   
+}
+.lgn{
+    text-align: center;
+}
+.lgn input{
+    outline: none;
+    border: none;
+    border-bottom: navy 1px;
+    align-items: center;
+}
+.lgn span{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.lgn span:hover{
+    color: rgba(48, 83, 179, 0.801);
+}
+
+.lgn img{
+    height: 100px;
+    width: 100px;
+}
+
+img{
+    height: 100vh;
+    width: 100%;
+}
+.blnk{
+ text-align: center;
+ font-weight: bold;
+ font-size: 20px;
+ padding: 100px;
+ display:table-caption;
+ word-spacing: 5px;
+ letter-spacing: 5px;
+}
+
+.errstr{
+    color: red;
+    font-weight: bold;
+}

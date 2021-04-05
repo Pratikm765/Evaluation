@@ -1,0 +1,22 @@
+<div class="app">
+
+    <div class="bg"></div>
+
+    <form ngNativeValidate>
+        <h3><strong>Login</strong></h3>
+        <div class="inputs">
+            <input type="text" name="email" placeholder="username or email" [(ngModel)]="user.email" required>
+            <input type="password" name="password" placeholder="password" [(ngModel)]="user.password" required>
+            <span class="errstr">{{errstr}}</span>
+            <p class="light"><a href="#">Forgot password?</a></p>
+        </div>  <br><br><br>
+        <button class="submit" (click)="login()">Sign IN</button>
+    </form>
+
+    <footer>
+        
+        <p>Don't have an account? <a href="register">Sign Up</a></p>
+    </footer>
+
+
+</div>

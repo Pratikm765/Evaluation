@@ -1,0 +1,162 @@
+
+
+.topnav {
+    overflow: hidden;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    display: flex;
+  }
+  
+.logo img{
+    width: 60px;
+    cursor: pointer;
+}
+
+.navlinks{
+  flex: 1;
+}
+  
+.navlinks ul{
+  display: inline;
+}
+
+.navlinks ul li{
+  list-style: none;
+  display: inline-block;
+}
+
+.topnav .navlinks ul a {
+    font-family: YourFontFamily;
+    float: left;
+    padding: 14px 16px;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .topnav .navlinks ul a:hover {
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+
+  .topnav .navlinks .rn{
+    font-family: YourFontFamily;
+    padding: 14px 16px;
+    float: right;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    margin-right: 2px;
+  }
+
+  .topnav .navlinks  .rn:hover {
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  .topnav .navlinks .rn a{
+    text-decoration: none;
+  }
+
+  .growextra{
+      display: none;
+  }
+
+  .rn:hover + .growextra{
+      display: inline;
+  }
+  .growextra:hover {
+      display: inline;
+  }
+
+  .uname {
+    margin-right: 2px;
+    padding: 15px ;
+    border-radius: 2px;
+    float: right;
+    color: #333;
+    -webkit-box-shadow: 1px 2px 10px 1px rgba(0,0,0,0.5);
+    box-shadow: 1px 2px 10px 1px rgba(0,0,0,0.5);
+
+  }
+  .uname input{
+    background: rgba(255,255,255,0.4);
+    border: none;
+    outline: none;
+    width: 300px;
+    font-family: YourFontFamily;
+    
+  }
+
+ .growextra input{
+   text-decoration: none;
+ } 
+
+.fa-bars{
+  display: none;
+  padding: 10px;
+}
+.fa-close{
+  display: none;
+}
+.bt-csd{
+  visibility: hidden;
+}
+  
+@media (max-width: 900px){
+  .topnav{
+    padding: 10px 30px;
+  }
+    .topnav .navlinks {
+      position: absolute;
+      background: silver;
+      top: 0;
+      right: 0;
+      width: 200px;
+      text-align: left;
+      z-index: 2;
+      transition:all .3s;
+    }
+    .topnav .navlinks ul a{
+      display: block;
+      
+    }
+    .topnav .navlinks span{
+      display: none;
+    }
+    .uname span{
+      display: none;
+    }
+    .fa-bars{
+      position: absolute;
+      right: 20px;
+      top: 10px;
+    }
+    .topnav .fa{
+      display: block;
+      margin: 10px 25px;
+      cursor: pointer;
+    }
+    .bt-csd{
+      visibility: visible;
+      font-family: YourFontFamily;
+      margin: auto;
+      outline: none;
+      background-color: rgba(48, 83, 179, 0.801);
+      color: black;
+      box-shadow:0 10px 5px -5px rgba(0,0,0,.4);
+      font-weight: 1000;
+      transition:all .3s;
+    }
+    .bt-csd:hover{
+      background-color: silver;
+    }
+  }
+
+
+  

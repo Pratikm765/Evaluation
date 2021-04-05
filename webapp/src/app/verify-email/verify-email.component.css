@@ -1,0 +1,27 @@
+.otp-box{
+    font-family: YourFontFamily;
+    max-width:300px;
+    min-height:347px;
+    height:auto;
+    margin: 0px auto;
+    background:#22222a;
+    border-radius:6px;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 5px 10px;
+    box-shadow:0 0 30px rgba(0,0,0,.3)
+}
+.otp-box p ,span{
+    color: grey;
+}
+
+.otp-input input{
+width: 80%;
+margin: 10px auto;
+}
+
+.otp-box a{
+    text-decoration: done;
+    cursor: pointer;
+}

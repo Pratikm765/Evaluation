@@ -1,0 +1,25 @@
+<div class="container">
+    <div class=" lgn col-sm-4">
+        
+        <span> <h1><strong>Hi</strong> </h1> <h4>{{user.email}},</h4></span> <br> <br>
+        <h2> <strong>Welcome Back</strong> </h2> <br> 
+        <img src="../../assets/avatar.png"> <br> <br> <br>
+        <form>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Enter Your Password:</label>
+            <input type="password" class="form-control" name="password" [(ngModel)]="user.password" placeholder="Password">
+            <span class="errstr"> {{errstr}}</span>
+          </div>
+          <button type="submit" class="btn btn-primary" (click)="login()">Sign In</button>
+        </form>
+        <br><a href="#">Forgot password?</a>
+    </div>
+    <div class=" col-sm-4">
+        <img src="../../assets/interview1.jpg">
+    </div>
+    <div class=" col-sm-4 blnk">
+        <h1><strong> Hello Mate!</strong></h1> <br>
+        <p> To keep us connected with you please stay logged in</p>
+
+    </div>
+</div>

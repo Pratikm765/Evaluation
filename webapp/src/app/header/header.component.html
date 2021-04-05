@@ -1,0 +1,23 @@
+<div class="topnav">
+        <div class="logo">
+            <a href=""><img src="../../assets/logo1.png"></a>
+        </div>
+        <div class="navlinks" id="navlinks">
+          <i class="fa fa-close fa-lg" (click)="hidebar()"></i>  
+          <ul class="links">
+            <a href=""><li>Home</li></a>
+            <a><li>Get started</li></a>
+            <a (click)="gotoDashboard()"><li>Dashboard</li></a>
+            <a><li>Our Clients</li></a>
+            <a><li>About US</li></a>
+          </ul>
+          <!-- <span class="rn"><a href="register">Sign Up</a></span> -->
+          <span class="grow rn"> <a href="login/{{email}}">Sign In</a></span>
+          <span class="growextra uname"><input type="text" [(ngModel)]="email" placeholder="Enter E-mail"></span>
+        </div>
+        <button class="btn bt-csd" (click)="focusInput()">Sign In</button>
+        <i class="fa fa-bars fa-2x" (click)="showbar()"></i>
+        
+</div>
+
+

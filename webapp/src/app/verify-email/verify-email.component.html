@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="otp-box">
+        <p>We have sent an OTP in mail to your registered email to verify you E-mail.</p>
+        <h3><strong>Verify E-mail</strong> </h3>
+        <form ngNativeValidate> 
+            <div class="form-group otp-input">
+                <label for="otp"><h5>Enter One-Time-Password(OTP)</h5></label>
+                <input type="password" class="form-control" name="otp" [(ngModel)]="user.password" placeholder="OTP" required minlength="6"/>
+            </div>
+            <div class="form-group">
+                <input type="submit" class="btn btn-danger" name="submit" value="SUBMIT" (click)="verifyEmail()" />
+            </div>
+        </form>
+        <span>If you did not receive your OTP or your OTP has expired, please click here to resend.</span> <br>
+        <a>Resend OTP</a>
+    </div>
+</div>

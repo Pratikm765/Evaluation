@@ -1,0 +1,87 @@
+a,p,h2,h4,h5,h6,input{
+    font-family: YourFontFamily;
+}
+.btn-group{
+    float: right;
+}
+
+.profile{
+    text-align: center;
+}
+
+.header {
+    outline-style: solid;
+    outline-color: white;
+    outline-width: thick;
+    background-color: whitesmoke;
+    display: block;
+    border: 1px solid lighten(black, 90%);
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+.header    h2 {
+    display: inline-block;
+    color: darkgray-blue;
+    font-weight: bolder;
+}
+.header    h2:hover {
+ color: lightskyblue;
+}
+.lgout{
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+    margin-right: 10px ;
+}
+.btn{
+    border-radius: 5px;
+}
+
+.fa{
+    cursor: pointer;
+}
+
+#browse{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#browse input[type=search]{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left-content {
+    outline-style: solid;
+    outline-color: white;
+    outline-width: thick;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.right-content{
+    outline-style: solid;
+    outline-color: white;
+    outline-width: thick;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.drop input{
+    border: none;
+    width: 200px;
+}
+
+.fb input{
+    border: none;
+    width: 200px;
+}
+
+.editable{
+    padding: 5px 5px 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
